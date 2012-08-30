@@ -9,9 +9,8 @@ class ApplicationController < ActionController::Base
     from = params[:from]
     subject = params[:subject]
     
-    puts '======================='
-    puts 'from: ' + from
-    puts 'subject: ' + subject
-    puts '======================='
+    UserMailer.summary.deliver
+    
+    head 200
   end
 end
