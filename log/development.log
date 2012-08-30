@@ -1,0 +1,94 @@
+
+Sent mail to david@quicklet.com (83ms)
+Date: Wed, 29 Aug 2012 18:23:29 -0600
+To: david@quicklet.com
+Message-ID: <503eb28148045_1784b80434f4c860b9@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+Sent mail to david@quicklet.com (7ms)
+Date: Wed, 29 Aug 2012 18:33:45 -0600
+To: david@quicklet.com
+Message-ID: <503eb4e96bce8_1784b80434f4c86164@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-29 18:34:55 -0600
+Served asset /rails.png - 200 OK (66ms)
+
+Sent mail to david@quicklet.com (7ms)
+Date: Wed, 29 Aug 2012 18:36:46 -0600
+To: david@quicklet.com
+Message-ID: <503eb59e31390_1784b80434f4c8627e@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-29 18:36:53 -0600
+
+SyntaxError (/Users/David/Desktop/dev/summarize/config/routes.rb:60: syntax error, unexpected keyword_end):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (18.5ms)
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.5ms)
+
+Sent mail to david@quickleft.com (8ms)
+Date: Wed, 29 Aug 2012 18:37:34 -0600
+To: david@quickleft.com
+Message-ID: <503eb5ced1f32_1784b80434f4c863bc@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-29 18:37:44 -0600
+Served asset /rails.png - 200 OK (5ms)
+
+Sent mail to david@quickleft.com (87ms)
+Date: Wed, 29 Aug 2012 18:39:46 -0600
+To: david@quickleft.com
+Message-ID: <503eb65212b8b_178de80434f4c20524@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-08-29 18:39:58 -0600
+Served asset /rails.png - 304 Not Modified (0ms)
+  [1m[36m (11.7ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (2.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (1.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.3ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+
+Sent mail to david@quickleft.com (83ms)
+Date: Wed, 29 Aug 2012 18:43:49 -0600
+To: david@quickleft.com
+Message-ID: <503eb74529669_179a980434f4c7248f@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+

@@ -1,5 +1,5 @@
 Summarize::Application.routes.draw do
-  get "incoming" => "incoming#email"
+  get '/test_mailer' => 'application#test_mailer'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
