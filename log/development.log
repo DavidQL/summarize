@@ -92,3 +92,128 @@ Content-Type: text/plain;
  charset=UTF-8
 Content-Transfer-Encoding: 7bit
 
+DEPRECATION WARNING: require_library_or_gem is deprecated and will be removed from Rails 3.2. (called from require at script/rails:6)
+DEPRECATION WARNING: require_library_or_gem is deprecated and will be removed from Rails 3.2. (called from require at script/rails:6)
+
+
+Started GET "/test_mailer" for 127.0.0.1 at 2012-08-29 19:35:19 -0600
+  Processing by ApplicationController#test_mailer as HTML
+
+Sent mail to david@quickleft.com (919ms)
+Date: Wed, 29 Aug 2012 19:35:21 -0600
+From: d6cdad1d4cdcbd9f7358@cloudmailin.net
+To: david@quickleft.com
+Message-ID: <503ec3597e18f_181838150bf1459042@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Completed 500 Internal Server Error in 1341ms
+
+ActionView::MissingTemplate (Missing template application/test_mailer with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (22.2ms)
+
+
+Started GET "/test_mailer" for 127.0.0.1 at 2012-08-29 19:39:48 -0600
+  Processing by ApplicationController#test_mailer as HTML
+
+Sent mail to david@quickleft.com (1104ms)
+Date: Wed, 29 Aug 2012 19:39:48 -0600
+From: d6cdad1d4cdcbd9f7358@cloudmailin.net
+To: david@quickleft.com
+Message-ID: <503ec464d332c_181838161cc7859194@David-Aragons-MacBook-Pro.local.mail>
+Subject: Test email
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Completed 500 Internal Server Error in 1136ms
+
+ActionView::MissingTemplate (Missing template application/test_mailer with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/incoming" for 127.0.0.1 at 2012-08-29 19:48:22 -0600
+  Processing by ApplicationController#incoming as */*
+WARNING: Can't verify CSRF token authenticity
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+Completed 500 Internal Server Error in 10ms
+
+ActionView::MissingTemplate (Missing template application/incoming with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.4ms)
+
+
+Started POST "/incoming" for 127.0.0.1 at 2012-08-29 19:49:23 -0600
+  Processing by ApplicationController#incoming as */*
+WARNING: Can't verify CSRF token authenticity
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+Completed 500 Internal Server Error in 15ms
+
+ActionView::MissingTemplate (Missing template application/incoming with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/incoming" for 127.0.0.1 at 2012-08-29 20:02:37 -0600
+  Processing by ApplicationController#incoming as */*
+WARNING: Can't verify CSRF token authenticity
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+Completed 500 Internal Server Error in 10ms
+
+ActionView::MissingTemplate (Missing template application/incoming with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started POST "/incoming" for 127.0.0.1 at 2012-08-29 20:05:35 -0600
+  Processing by ApplicationController#incoming as HTML
+  Parameters: {"to"=>"<d6cdad1d4cdcbd9f7358@cloudmailin.net>", "disposable"=>"", "from"=>"david@quickleft.com", "subject"=>"lskdjf", "message"=>"Received: by lbky2 with SMTP id y2so189475lbk.3\r\n        for <d6cdad1d4cdcbd9f7358@cloudmailin.net>; Wed, 29 Aug 2012 19:05:32 -0700 (PDT)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=quickleft.com; s=google;\r\n        h=mime-version:date:message-id:subject:from:to:content-type;\r\n        bh=4mxO4li97JZRwj1wDx5/CFQVqk3ETXlJiBgYQlwh3K8=;\r\n        b=fng9kbD7OJaTkJnlYwq/653cosqsyaDFKYcwW/fWq+6bN5G2stBy1Q8N7DbX6WThEP\r\n         htwlHLK6ftsMoE6h0cOswB2wXD4gv0OUTY/aIgSxDedpGHzvxEewFLFW/WFxFU2/F1Ed\r\n         GDT1Hf54v1QWwONKN7G75Hn0tDLatj1Au0BRQ=\r\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20120113;\r\n        h=mime-version:date:message-id:subject:from:to:content-type\r\n         :x-gm-message-state;\r\n        bh=4mxO4li97JZRwj1wDx5/CFQVqk3ETXlJiBgYQlwh3K8=;\r\n        b=kH3TrKepPgN9qJDbZ8mB0Sb01e1ixGgUDryBSMp0mJ1t7ihiQrQwCwD5svUniEFODc\r\n         ZGJnyW9uaUQtrp6ODWRI+wohtdlEHFCcZCUXPEdVraMitjjjbls00UoxZjvNJlv6uqGG\r\n         Xdu222SawnoTO6ypBqjMw/nz/XK+fhxhH35Yh9+xCuiz56IO3mPWtnCSa4phBxE/HrxI\r\n         t5zi/RX5Toeq6Wc1jhWQshXC6+DpWGK2VsBsDAXvrlGmDQcRSZ1KBeS6N+Fh8CKl9N3N\r\n         SaYikGM+jxj1xY1S6xCCCbHtJcZd2E5ZXClqJXToyzTYMMDFC20FrxHCD2PVEXGoVerK\r\n         JN0g==\r\nMIME-Version: 1.0\r\nReceived: by 10.112.48.193 with SMTP id o1mr816581lbn.62.1346292332733; Wed,\r\n 29 Aug 2012 19:05:32 -0700 (PDT)\r\nReceived: by 10.112.101.39 with HTTP; Wed, 29 Aug 2012 19:05:32 -0700 (PDT)\r\nDate: Wed, 29 Aug 2012 20:05:32 -0600\r\nMessage-ID: <CAPJWrDLxbjv4_J9qG6morUkPaZ3X9rNBMcnWg4iwbh=L6r8JBQ@mail.gmail.com>\r\nSubject: lskdjf\r\nFrom: David Aragon <david@quickleft.com>\r\nTo: d6cdad1d4cdcbd9f7358@cloudmailin.net\r\nContent-Type: text/plain; charset=ISO-8859-1\r\nX-Gm-Message-State: ALoCoQkzNmBH5sVzg1ePH/0xNg/x0yxDrGGNM9XuNGZQefYqjEhY4ped1LyOvbM0Jdu50ejlmrWR\r\n\r\nlskdjflksdf\r\n\r\n-- \r\nDavid Aragon\r\nSoftware Engineer\r\n\r\nQuick Left, Inc.\r\n902 Pearl Street\r\nBoulder, CO 80302\r\n303.242.5536\r\n\r\n\r\nhttp://www.quickleft.com/blog\r\nhttp://twitter.com/quickleft\r\n", "plain"=>"lskdjflksdf\n\n-- \nDavid Aragon\nSoftware Engineer\n\nQuick Left, Inc.\n902 Pearl Street\nBoulder, CO 80302\n303.242.5536\n\n\nhttp://www.quickleft.com/blog\nhttp://twitter.com/quickleft", "html"=>"", "mid"=>"CAPJWrDLxbjv4_J9qG6morUkPaZ3X9rNBMcnWg4iwbh=L6r8JBQ@mail.gmail.com", "x_to_header"=>"[\"d6cdad1d4cdcbd9f7358@cloudmailin.net\"]", "x_from_header"=>"[\"david@quickleft.com\"]", "x_cc_header"=>"", "x_remote_ip"=>"209.85.217.172", "helo_domain"=>"mail-lb0-f172.google.com", "spf"=>{"result"=>"none", "domain"=>"quickleft.com"}, "signature"=>"173e7ccf0d354373d69d4a7ff383937a"}
+WARNING: Can't verify CSRF token authenticity
+
+***** Debugger requested, but was not available (ensure ruby-debug is listed in Gemfile/installed as gem): Start server with --debugger to enable *****
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template application/incoming with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (1.0ms)
+
+
+Started POST "/incoming" for 127.0.0.1 at 2012-08-29 20:08:20 -0600
+  Processing by ApplicationController#incoming as HTML
+  Parameters: {"to"=>"<d6cdad1d4cdcbd9f7358@cloudmailin.net>", "disposable"=>"", "from"=>"david@quickleft.com", "subject"=>"gizmodo.com", "message"=>"Received: by lahm15 with SMTP id m15so1171849lah.3\r\n        for <d6cdad1d4cdcbd9f7358@cloudmailin.net>; Wed, 29 Aug 2012 19:08:19 -0700 (PDT)\r\nDKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=quickleft.com; s=google;\r\n        h=mime-version:date:message-id:subject:from:to:content-type;\r\n        bh=BeOug4AD4GvdeqBm6rVdMXk5r/oa3Q7KFiVuE2hg2hc=;\r\n        b=IL8Qz+oenUpLwDQomlOK2/5gJpZtZPTGip+cFsKsDDpuSNBtHg/d02lLAMtZfUwyrF\r\n         z5/rw8dZ5ia7gVG7BdRtYY2hofO+WwcWJqfZ9HCu446MMrFpnysi09DbjHDLnSHhBCjw\r\n         XlFWMuBmr9BvB0MLZUipCrK8mJvY2SVTLGOS4=\r\nX-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;\r\n        d=google.com; s=20120113;\r\n        h=mime-version:date:message-id:subject:from:to:content-type\r\n         :x-gm-message-state;\r\n        bh=BeOug4AD4GvdeqBm6rVdMXk5r/oa3Q7KFiVuE2hg2hc=;\r\n        b=fJgeohzYND1B437qpbyrytf80ECX2VerNTnwEfJ3UfWI+Ah37QWQPDX9nZVg7e7ebX\r\n         gEo8vGXCPo5OwG83jbgvqsWg4eN+mg7ja3yp6705j4JgYtFuNgzLxJTUVv3lxSFSrkLl\r\n         GkiJO4bWskHaH7PalOVrbqnRFTry3H243vyiRuNE/N6A0rWCS1EKDQSpwuQndSsP33zb\r\n         K3ESuHluhLYV/N2iNvsimSyy9lnpTB/NREVddtkfVH47jeRRsnZZd9RdoG5SRzkfnlBM\r\n         QlZ/+PhtkL4KmMwTLvMfI765aLCaW1CqDmTClk3gnoD28FcF/1apinwWHvkHBaGe5Ga5\r\n         nnzw==\r\nMIME-Version: 1.0\r\nReceived: by 10.152.110.80 with SMTP id hy16mr1904948lab.8.1346292499088; Wed,\r\n 29 Aug 2012 19:08:19 -0700 (PDT)\r\nReceived: by 10.112.101.39 with HTTP; Wed, 29 Aug 2012 19:08:19 -0700 (PDT)\r\nDate: Wed, 29 Aug 2012 20:08:19 -0600\r\nMessage-ID: <CAPJWrDKCMhrU+fZGenMftABiLmAg7zdn5L1PZVisrwRCJNxBRQ@mail.gmail.com>\r\nSubject: gizmodo.com\r\nFrom: David Aragon <david@quickleft.com>\r\nTo: d6cdad1d4cdcbd9f7358@cloudmailin.net\r\nContent-Type: text/plain; charset=ISO-8859-1\r\nX-Gm-Message-State: ALoCoQmy9z0PKy8xEaCywhwZ/PTB5J16TvOVGk6BgYdy8ewPKkVZY0DcwG4FOcvlckqtroaeilha\r\n\r\n-- \r\nDavid Aragon\r\nSoftware Engineer\r\n\r\nQuick Left, Inc.\r\n902 Pearl Street\r\nBoulder, CO 80302\r\n303.242.5536\r\n\r\n\r\nhttp://www.quickleft.com/blog\r\nhttp://twitter.com/quickleft\r\n", "plain"=>"-- \nDavid Aragon\nSoftware Engineer\n\nQuick Left, Inc.\n902 Pearl Street\nBoulder, CO 80302\n303.242.5536\n\n\nhttp://www.quickleft.com/blog\nhttp://twitter.com/quickleft", "html"=>"", "mid"=>"CAPJWrDKCMhrU+fZGenMftABiLmAg7zdn5L1PZVisrwRCJNxBRQ@mail.gmail.com", "x_to_header"=>"[\"d6cdad1d4cdcbd9f7358@cloudmailin.net\"]", "x_from_header"=>"[\"david@quickleft.com\"]", "x_cc_header"=>"", "x_remote_ip"=>"209.85.215.44", "helo_domain"=>"mail-lpp01m010-f44.google.com", "spf"=>{"result"=>"none", "domain"=>"quickleft.com"}, "signature"=>"de29bd0671c95be22ad9fbbd43bc1ce9"}
+WARNING: Can't verify CSRF token authenticity
+Completed 500 Internal Server Error in 7ms
+
+ActionView::MissingTemplate (Missing template application/incoming with {:handlers=>[:erb, :builder, :coffee], :formats=>[:html], :locale=>[:en, :en]}. Searched in:
+  * "/Users/David/Desktop/dev/summarize/app/views"
+):
+  
+
+Rendered /Users/David/Developer/.rvm/gems/ruby-1.9.2-p290@summarize/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
